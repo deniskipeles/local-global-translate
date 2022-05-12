@@ -1,6 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/register": "pages/register.html",
+  "/api/hello": "pages/api/hello.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.js",
+  "/languages": "pages/languages.js",
+  "/translate/add": "pages/translate/add.html",
+  "/translate/add-language": "pages/translate/add-language.html",
+  "/user": "pages/user.js",
+  "/most-search": "pages/most-search.js",
+  "/account": "pages/account.js",
   "/_document": "pages/_document.js",
-  "/languages": "pages/languages.js"
+  "/404": "pages/404.html"
 }
